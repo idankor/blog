@@ -1,5 +1,5 @@
 baseurl      = "//idankor.com"
-title        = "The Road to Free-Energy"
+title        = "The Free-Energy Principle"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
@@ -53,7 +53,7 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Nice theme for homepages and blogs"
+  description = ""
   keywords = ""
   images = [""]
 
@@ -125,13 +125,13 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "harvesting neg entropy..."
+    logoText     = "harvest negentropy"
     # Set true to remove the logo cursor entirely.
     logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.
     #logoCursorColor    = "#67a2c9"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    #logoCursorAnimate = "2s"
+    logoCursorAnimate = "2s"
     logoHomeLink = false
 
   # Commento is more than just a comments widget you can embed — 
