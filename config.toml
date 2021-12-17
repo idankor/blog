@@ -166,5 +166,5 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "guide"
     name       = "Guide"
-    url        = "content/chapters/"
+    url        = "chapters/"
     weight = 3
