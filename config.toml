@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "https://free-energy.netlify.com"
 title        = "My Blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
