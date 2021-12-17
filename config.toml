@@ -35,7 +35,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Jane Doe"
+  name = "Idan Korenblum"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -92,7 +92,7 @@ disableHugoGeneratorInject = false
   #
   # Enables the global language menu.
   #
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -154,19 +154,6 @@ disableHugoGeneratorInject = false
   #   alt      = "Portrait"
   #   maxWidth = "50px"
 
-  # Social icons
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:nobody@example.com"
-
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/"
-
 [languages]
   [languages.en]
     subtitle  = "Hello Friend NG Theme"
@@ -175,10 +162,17 @@ disableHugoGeneratorInject = false
 
 [menu]
   [[menu.main]]
+    identifier = "home"
+    name       = "Home"
+    url        = "/"
+    weight = 1
+  [[menu.main]]
     identifier = "about"
     name       = "About"
     url        = "about/"
+    weight = 2
   [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
+    identifier = "guide"
+    name       = "Guide"
+    url        = "posts/guide/"
+    weight = 3
