@@ -1,4 +1,4 @@
-baseurl      = "https://idankor.com"
+baseurl      = "//idankor.com"
 title        = "The Road to Free-Energy"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
