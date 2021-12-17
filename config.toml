@@ -40,10 +40,10 @@ disableHugoGeneratorInject = false
 [blackfriday]
   hrefTargetBlank = true
 
-[taxonomies]
-  tag      = "tags"
-  category = "categories"
-  series   = "series"
+#[taxonomies]
+# tag      = "tags"
+#  category = "categories"
+#  series   = "series"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -131,7 +131,7 @@ disableHugoGeneratorInject = false
     # Set to a valid CSS color to change the cursor in the logo.
     #logoCursorColor    = "#67a2c9"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    logoCursorAnimate  = "2s"
+    #logoCursorAnimate = "2s"
     logoHomeLink = false
 
   # Commento is more than just a comments widget you can embed — 
