@@ -5,7 +5,7 @@ draft: false
 
 It is no secret that many of us are waiting for the right moment. I asked myself if I should put the word "right" between quotes while writing the previous sentence, as the more common view on this matter (at least so I believe) is that there is no right moment. But then I did one of my favorite things: I doubted a belief (that I was holding somewhat mindlessly). I cannot be so sure that there is such thing as the "right moment." This is a profound and complex philosophical issue, and perhaps I will discuss it in one of my future writings.
 
-Another motivation for not using quotes in the first sentence is that people's feelings matter more than metaphysical correctness. Many people wait for a specific constellation of conditions (the so-called 'right moment'), especially when the action or decision they intend to make is of great importance to them. As for my case, it seems to me that I drifted unintentionally from the territory of "waiting for a right moment" to the dark kingdom of procrastination.
+Another motivation for not using quotes in the first sentence is that people's feelings matter more than metaphysical correctness. Many people wait for a specific constellation of conditions (the so-called 'right moment'), especially when the action or decision they intend to make is of great importance to them. As for my case, it seems to me that I drifted unintentionally from the territory of "waiting for the right moment" to the dark kingdom of procrastination.
 
 The project you are reading right now is something I wanted to start some time ago but did not. I waited for the right moment. For me, in this case, the right moment would have been characterized by the following:
 
