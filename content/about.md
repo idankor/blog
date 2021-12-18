@@ -1,7 +1,9 @@
 +++
-title = "About Me"
+title = "Hi there."
 +++
 
-Hi there. This section is still under construction.
+{{< imgtxt text = "Hi there. This is a test." >}}
+{{< avatar src="avatar.jpg" >}}
+{{< /imgtxt >}}
 
-{{< image_circle path="../assets/images/portrait.jpg" >}}
+My name
