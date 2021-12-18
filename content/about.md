@@ -10,7 +10,7 @@ I graduated from medical school at the University of Pavia (among its alumni are
 </p>
 
 <p>
-My main areas of interest revolve around psychedelic substances, consciousness, ontology, and Bayesian approaches to brain function.
+My main areas of interest revolve around psychedelic substances, consciousness, ontology, and Bayesian approaches to brain function. This blog deals mainly with the free-energy principle, one of the most promising and ambitious frameworks in neuroscience today. Sooner or later I will probably discuss most of the topics mentioned above and some other exciting ideas which, in a way, are all tangent to one another.
 </p>
 
 <img src="/images/avatar.jpg" style="height: 200px; margin-top: 30px;">
