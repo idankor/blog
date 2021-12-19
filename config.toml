@@ -169,3 +169,8 @@ disableHugoGeneratorInject = false
     name       = "The Guide"
     url        = "chapters/"
     weight = 3
+      [[menu.main]]
+    identifier = "my-resources"
+    name       = "Resources"
+    url        = "my-resources/"
+    weight = 4
