@@ -396,6 +396,16 @@ hr {
   }
 }
 
+.hide-on-desktop {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .hide-on-desktop {
+    display: flex;
+  }
+}
+
 // Accessibility
 .screen-reader-text {
   border: 0;
