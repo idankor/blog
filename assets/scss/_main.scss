@@ -14,8 +14,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Roboto",
-    "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+    Helvetica, Arial, sans-serif;
   font-display: auto;
   font-size: 1rem;
   line-height: 1.54;
@@ -30,6 +30,7 @@ body {
   flex-direction: column;
 
   // Default
+
   background-color: $light-background;
   color: $light-color;
 
@@ -47,12 +48,12 @@ body {
     color: $light-color;
   }
 
-  [data-theme=dark] & {
+  [data-theme="dark"] & {
     background-color: $dark-background;
     color: $dark-color;
   }
 
-  [data-theme=light] & {
+  [data-theme="light"] & {
     background-color: $light-background;
     color: $light-color;
   }
@@ -74,7 +75,7 @@ h1 {
 
 h2 {
   font-size: 1.625rem;
-  margin-top: 2.5em;
+  margin-top: 1em;
 }
 
 h3 {
@@ -189,7 +190,9 @@ figure {
   }
 }
 
-em, i, strong {
+em,
+i,
+strong {
   // Default
   color: black;
 
@@ -201,11 +204,11 @@ em, i, strong {
     color: black;
   }
 
-  [data-theme=dark] & {
+  [data-theme="dark"] & {
     color: white;
   }
 
-  [data-theme=light] & {
+  [data-theme="light"] & {
     color: black;
   }
 }
@@ -229,21 +232,21 @@ code {
     background: $light-background-secondary;
   }
 
-  [data-theme=dark] & {
+  [data-theme="dark"] & {
     background: $dark-background-secondary;
   }
 
-  [data-theme=light] & {
+  [data-theme="light"] & {
     background: $light-background-secondary;
   }
 }
 
 pre {
-  [data-theme=dark] & {
+  [data-theme="dark"] & {
     background-color: $dark-background-secondary;
   }
 
-  [data-theme=light] & {
+  [data-theme="light"] & {
     background-color: $light-background-secondary;
   }
 
@@ -268,16 +271,16 @@ pre {
     @media (prefers-color-scheme: dark) {
       color: inherit;
     }
-  
+
     @media (prefers-color-scheme: light) {
       color: #ccc;
     }
-  
-    [data-theme=dark] & {
+
+    [data-theme="dark"] & {
       color: inherit;
     }
-  
-    [data-theme=light] & {
+
+    [data-theme="light"] & {
       color: #ccc;
     }
   }
@@ -339,7 +342,7 @@ ol ol {
   flex-direction: column;
   flex: 1 auto;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   margin: 0;
 
   @media #{$media-size-phone} {
@@ -362,11 +365,11 @@ hr {
     background: $light-border-color;
   }
 
-  [data-theme=dark] & {
+  [data-theme="dark"] & {
     background: $dark-border-color;
   }
 
-  [data-theme=light] & {
+  [data-theme="light"] & {
     background: $light-border-color;
   }
 }
