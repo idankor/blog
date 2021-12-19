@@ -14,7 +14,7 @@ My main areas of interest revolve around psychedelic substances, consciousness, 
 </p>
 
 <p>
-I enjoy skateboarding, playing chess, solving <a href="https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)" target="_tab">CTFs</a> and other puzzles, watching crime documentaries, and listening to Terence McKenna before falling asleep. Two big inspirations for me in neuroscience are <a href="https://en.wikipedia.org/wiki/Joscha_Bach" target="_tab">Joscha Bach</a> and Karl Friston.
+I enjoy skateboarding, playing chess, solving <a href="https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)" target="_tab">CTFs</a> and other puzzles, watching crime documentaries, and listening to Terence McKenna before falling asleep. Two big inspirations for me in neuroscience are <a href="https://en.wikipedia.org/wiki/Joscha_Bach" target="_tab">Joscha Bach</a> and Karl Friston. You can read a little more about me in the <a href="/chapters/0-start-here/">first chapter</a> of the guide.
 </p>
 
 <p>

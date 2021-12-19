@@ -6,8 +6,6 @@
     {{ if .Content }}
     <div class="content">{{ .Content }}</div>
     {{ end }}
-
-    {{ range $paginator.Pages.GroupByDate "2006" }}
     <div class="posts-group">
 
 
@@ -22,7 +20,6 @@
             {{ end }}
         </ul>
     </div>
-    {{ end }}
     {{ partial "pagination-list.html" . }}
 </main>
 {{ end }}
