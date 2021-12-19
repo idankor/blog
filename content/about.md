@@ -10,11 +10,11 @@ I graduated from medical school at the <a href="https://en.wikipedia.org/wiki/Un
 </p>
 
 <p>
-My main areas of interest revolve around psychedelic substances, consciousness, ontology, and <a href="https://en.wikipedia.org/wiki/Bayesian_approaches_to_brain_function" target="_tab">Bayesian approaches to brain function</a>. This blog deals mainly with the <a href="https://en.wikipedia.org/wiki/Free_energy_principle" target="_tab">free-energy principle</a>, one of the most promising and ambitious frameworks in neuroscience today. Sooner or later I will probably discuss all of the topics mentioned above and some other exciting ideas which, in a way, are all tangent to one another.
+My main areas of interest revolve around psychedelic substances, consciousness, <a href="https://en.wikipedia.org/wiki/Ontology" target="_tab">ontology</a>, and <a href="https://en.wikipedia.org/wiki/Bayesian_approaches_to_brain_function" target="_tab">Bayesian approaches to brain function</a>. This blog deals mainly with the <a href="https://en.wikipedia.org/wiki/Free_energy_principle" target="_tab">free-energy principle</a>, one of the most promising and ambitious frameworks in neuroscience today. Sooner or later I will probably discuss all of the topics mentioned above and some other exciting ideas which, in a way, are all tangent to one another.
 </p>
 
 <p>
-I enjoy skateboarding, playing chess, solving <a href="https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)" target="_tab">CTFs</a> and other puzzles, watching crime documentaries, and listening to Terence McKenna before falling asleep. Two big inspirations for me in neuroscience are <a href="https://en.wikipedia.org/wiki/Joscha_Bach" target="_tab">Joscha Bach</a> and Karl Friston. You can read a little more about me in the <a href="/chapters/0-start-here/">first chapter</a> of the guide.
+When I am not thinking about the meaning of life, I enjoy skateboarding, playing chess, solving <a href="https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)" target="_tab">CTFs</a> and other puzzles, watching crime documentaries, and listening to Terence McKenna before falling asleep. Two big inspirations for me in neuroscience are <a href="https://en.wikipedia.org/wiki/Joscha_Bach" target="_tab">Joscha Bach</a> and Karl Friston. You can read a little more about me in the <a href="/chapters/0-start-here/">first chapter</a> of the guide.
 </p>
 
 <p>

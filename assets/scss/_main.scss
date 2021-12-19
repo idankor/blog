@@ -24,8 +24,9 @@ body {
   font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   min-height: 100vh;
   flex-direction: column;
 
@@ -330,11 +331,13 @@ ol ol {
 }
 
 .container {
-  flex: 1 auto;
+  flex: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  width: 100%;
+  min-height: 99vh;
 }
 
 .content {
