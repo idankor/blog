@@ -28,4 +28,4 @@ I do not know how many people will find this blog useful since it seems to me th
 
 So this is the moment to clarify: **I am not an expert on the topic**, to put it gently. There might be errors in my writings, and some of these errors may be fundamental and can potentially misguide you. That being said, I see a tremendous value in having this emotional support provided by going through the learning process together. For those of you who will choose to take this journey with me, I do promise an interesting and exciting ride.
 
-In addition to this blog, I run an online journal club that deals with papers on the free-energy principle. I welcome you to [contact me](mailto:idankor@gmail.com) regarding anything that has to do with the subject, be it a question, feedback, idea, or anything else.
+In addition to this blog, I run an online journal club that treats papers dealing with the free-energy principle. I welcome you to [contact me](mailto:idankor@gmail.com) regarding anything that has to do with the subject, be it a question, feedback, idea, or anything else.

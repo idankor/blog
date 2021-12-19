@@ -29,7 +29,7 @@ Nonetheless, it is no secret that some of us are more occupied than others in th
 
 This quote by Albert Einstein, I believe, is one of the most elegant and concise phrasings of this primal hunger for knowledge, the human attraction to the mysterious.
 
-During my medical studies, it became clear to me that I was going to specialize in psychiatry—either that or a career change to mathematics, computer science, or physics. Eventually, I started my psychiatry residency about two and a half years ago (as of this writing). You can read more about me here (link to be provided).
+During my medical studies, it became clear to me that I was going to specialize in psychiatry—either that or a career change to mathematics, computer science, or physics. Eventually, I started my psychiatry residency about two and a half years ago (as of this writing). You can read more about me [here](https://idankor.com/about).
 
 As a young resident, I was part of our hospital journal club, and I had to choose a paper to present and discuss it with my peers. I was not too restricted with my choice, but my mentor asked me to find a paper that has something to do with psychedelic substances. I came across [this one](https://www.example.com). What can I say? It was love from first sight.
 

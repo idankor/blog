@@ -1,3 +1,3 @@
 ---
-title: "The Road to the Free-Energy Principle"
+title: "The Road to Free-Energy"
 ---
