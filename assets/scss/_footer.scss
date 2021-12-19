@@ -1,13 +1,14 @@
 .footer {
-  padding: 10px;
+  padding: 40px 20px;
   flex-grow: 0;
   color: $light-color-secondary;
 
   &__inner {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 10px auto;
+    margin: 0 auto;
     width: 760px;
     max-width: 100%;
 
@@ -20,19 +21,18 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     font-size: 0.75rem;
     color: $light-color-secondary;
+    width: 100%;
 
     @media #{$media-size-tablet} {
       flex-direction: row;
-      margin-left: 5px;
-      margin-right: 5px;
     }
 
     & > *:not(:last-child)::after {
       content: "•";
-      margin-left: 5px;
-      margin-right: 5px;
+      padding: 0;
 
       @media #{$media-size-tablet} {
         content: "";
@@ -41,11 +41,15 @@
     }
 
     & > *:last-child {
-      padding: 0;
+      padding: 0px;
 
       @media #{$media-size-tablet} {
-        padding-top: 0;
+        padding: 0;
       }
     }
   }
+}
+
+a:hover {
+  color: #67a2c9;
 }

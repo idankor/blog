@@ -2,3 +2,6 @@
 	path = themes/hello-friend-ng
 	url = git://github.com/rhazdon/hugo-theme-hello-friend-ng.git
 	ignore = dirty
+[submodule "themes/themes/hello-friend-ng"]
+	path = themes/themes/hello-friend-ng
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git

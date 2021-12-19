@@ -25,8 +25,7 @@
 
   &__right {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    align-items: baseline;
 
     @media #{$media-size-phone} {
       flex-direction: row-reverse;
@@ -35,16 +34,17 @@
 
   &__inner {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 0 10px;
     width: 760px;
     max-width: 100%;
   }
 }
 
 .theme-toggle {
-  display: flex;
+  display: flexbox;
   align-items: center;
   justify-content: center;
   line-height: 1;

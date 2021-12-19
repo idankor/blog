@@ -3,19 +3,30 @@
     (.Site.Params.footer.rss) (.Site.Params.footer.topText) }}
     <div class="footer__inner">
         <div class="footer__content">
-            {{ if .Site.Params.footer.trademark }}<span>&copy; {{ now.Format "2006" }}</span>{{ end }}
-            {{ if .Site.Params.footer.author }}<span><a href="mailto:idankor@gmail.com">{{ .Site.Author.name
-                    }}</a></span>{{
+            {{ if .Site.Params.footer.trademark }}<div
+                style="display: flex; width: 18%; flex-direction: row; justify-content: center;">&copy; {{
+                now.Format "2006" }}
+            </div>{{ end
+            }}
+            {{ if .Site.Params.footer.author }}<div
+                style="display: flex; width: 35%; flex-direction: row; justify-content: center;">
+                <a href="mailto::idankor@gmail.com" style="text-decoration: none;" target="_tab">{{
+                    .Site.Author.name}}</a>
+            </div>{{ end }}
+            {{ if .Site.Params.footer.copyright }}<div>{{ .Site.Copyright| safeHTML }}</div>{{
             end }}
-            {{ if .Site.Params.footer.copyright }}<span>{{ .Site.Copyright| safeHTML }}</span>{{ end }}
-            {{ if .Site.Params.footer.rss }}<span><a href="{{ " posts/index.xml" | absLangURL }}" target="_blank"
-                    title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" class="feather feather-rss">
-                        <path d="M4 11a9 9 0 0 1 9 9"></path>
-                        <path d="M4 4a16 16 0 0 1 16 16"></path>
-                        <circle cx="5" cy="19" r="1"></circle>
-                    </svg></a></span>{{ end }}
+            {{ if .Site.Params.footer.rss }}
+            <div style="display: flex; flex-direction: row; justify-content: center; width: 10%">
+                <div><a href="{{ " posts/index.xml" | absLangURL }}" target="_blank" title="rss"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-rss">
+                            <path d="M4 11a9 9 0 0 1 9 9"></path>
+                            <path d="M4 4a16 16 0 0 1 16 16"></path>
+                            <circle cx="5" cy="19" r="1"></circle>
+                        </svg></a></div>
+            </div>
+            {{ end }}
             {{ range .Site.Params.footer.topText }}<span>{{ . | safeHTML}}</span>{{ end }}
         </div>
     </div>

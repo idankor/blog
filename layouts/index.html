@@ -12,10 +12,9 @@
                 style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
             {{ end }}
 
-            <h1>{{ .Site.Title }}</h1>
+            <h1 style="margin: 5px;">{{ .Site.Title }}</h1>
             {{- with .Site.Params.homeSubtitle }}
-            <h3 style="justify-content: center;">{{.}}</h3>
-            <p><a href="/chapters/">Click here to start</a></p>
+            <p style="font-weight: 300; font-size: 1.1rem; margin: 5px;">{{.}}</p>
             {{- end }}
 
             {{- with .Site.Params.social }}
