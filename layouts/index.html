@@ -14,10 +14,20 @@
 
             <h1 style="margin: 5px;">{{ .Site.Title }}</h1>
             {{- with .Site.Params.homeSubtitle }}
-            <p style="font-weight: 300; font-size: 1rem; margin: 5px;">{{.}}</p>
+
+
+
+
+            <p style="font-weight: 300; font-size: 1.1rem; margin: 1% 1%;">{{.}}</p>
             {{- end }}
-            <p style="font-size: 0.85rem; margin: 10px 0px 0px 0px;"><a href="/chapters/"
-                    style="text-decoration: none;">Click here to begin</a></p>
+
+            <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+
+                <a href="/chatpers/" style="text-decoration: none;"><i id="start-arrow" class="ri-arrow-right-fill"
+                        style="display: flex; font-size: 1.5rem;"></i></a>
+                </p>
+
+            </div>
 
             {{- with .Site.Params.social }}
             <div>
