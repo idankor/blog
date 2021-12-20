@@ -4,11 +4,16 @@
   align-items: center;
   justify-content: center;
   position: sticky;
-  bottom: 0;
-  padding: 3%;
-  height: 5%;
+  bottom: 5;
+  margin-bottom: 0;
+  padding: 0;
+  height: 7%;
   // Default
   background: $light-background-header;
+
+  @media #{$media-size-phone} {
+    flex-direction: row;
+  }
 
   @media (prefers-color-scheme: dark) {
     background: $dark-background-header;
@@ -42,7 +47,8 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    margin: 0 10px;
+    margin: 0px 3%;
+    padding: 0;
     width: 760px;
     max-width: 100%;
   }
