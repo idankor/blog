@@ -11,16 +11,18 @@
     {{ end }}
 
     <div class="container">
-        {{ partial "footer.html" . }}
-
+        <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; width: 100%;">
+            <div class="hide-on-desktop">
+                {{ block "footer" . }}
+                {{ partial "footer.html" . }} {{ end }}
+            </div>
+        </div>
         <div class="content">
             {{ block "main" . }}{{ end }}
         </div>
 
-        {{ block "footer" . }}
-
         {{ partial "header.html" . }}
-        {{ end }}
+
     </div>
 
     {{ partial "javascript.html" . }}
