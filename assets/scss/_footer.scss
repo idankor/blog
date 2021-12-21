@@ -31,7 +31,7 @@
     font-size: 0.75rem;
     color: $light-color-secondary;
     width: 100%;
-    margin-top: 1.5%;
+    margin-top: 1.25%;
 
     @media #{$media-size-tablet} {
       flex-direction: row;
@@ -40,6 +40,8 @@
     & > *:not(:last-child)::after {
       content: "•";
       padding: 0;
+      margin: 0 5px;
+      font-size: 0.5rem;
 
       @media #{$media-size-tablet} {
         content: "";
