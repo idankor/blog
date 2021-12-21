@@ -5,32 +5,29 @@
     {{ end }}
 
     {{ define "main" }}
-    <main aria-role="main">
-        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-            {{ if .Site.Params.Portrait.Path }}
-            <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}"
-                style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
-            {{ end }}
+    {{ if .Site.Params.Portrait.Path }}
+    <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}"
+        style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
+    {{ end }}
 
-            <h1 style="margin: 0;">{{ .Site.Title }}</h1>
-            {{- with .Site.Params.homeSubtitle }}
+    <h1 style="margin: 0;">{{ .Site.Title }}</h1>
+    {{- with .Site.Params.homeSubtitle }}
 
-            <p style="font-weight: 300; font-size: 1.1rem; margin: 1% 1%;">{{.}}</p>
-            {{- end }}
+    <p style="font-weight: 300; font-size: 1.1rem; margin: 1% 1%;">{{.}}</p>
+    {{- end }}
 
-            <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+    <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
 
-                <a href="/chapters/" style="text-decoration: none;"><i id="start-arrow" class="ri-arrow-right-fill"
-                        style="display: flex; font-size: 1.5rem;"></i></a>
-                </p>
+        <a href="/chapters/" style="text-decoration: none;"><i id="start-arrow" class="ri-arrow-right-fill"
+                style="display: flex; font-size: 1.5rem;"></i></a>
+        </p>
 
-            </div>
+    </div>
 
-            {{- with .Site.Params.social }}
-            <div>
-                {{ partial "social-icons.html" . }}
-            </div>
-            {{- end }}
-        </div>
+    {{- with .Site.Params.social }}
+    <div>
+        {{ partial "social-icons.html" . }}
+    </div>
+    {{- end }}
     </main>
     {{ end }}
