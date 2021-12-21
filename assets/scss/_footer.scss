@@ -31,6 +31,7 @@
     font-size: 0.75rem;
     color: $light-color-secondary;
     width: 100%;
+    margin-top: 1.5%;
 
     @media #{$media-size-tablet} {
       flex-direction: row;

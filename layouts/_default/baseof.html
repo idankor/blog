@@ -18,11 +18,15 @@
                 {{ partial "footer.html" . }} {{ end }}
             </div>
         </div>
-        <div class="content">
-            {{ block "main" . }}{{ end }}
-        </div>
+    </div>
 
-        {{ partial "header.html" . }}
+    <div class="content">
+        {{ block "main" . }}{{ end }}
+    </div>
+
+    {{ partial "header.html" . }}
+
+    </div>
 
     </div>
 
