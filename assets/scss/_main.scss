@@ -336,7 +336,7 @@ ol ol {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
   align-items: center;
   height: 100%;
@@ -345,6 +345,7 @@ ol ol {
 
 .content {
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
