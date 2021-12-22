@@ -33,6 +33,8 @@
   }
 
   &__inner {
+    display: flex;
+    flex-direction: row;
     max-width: 100%;
     margin: 10px auto;
     padding: 0 0px;
@@ -45,13 +47,16 @@
 
     @media #{$media-size-phone} {
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
       padding: 0;
       position: absolute;
       bottom: 0;
       li {
         margin: 0;
         padding: 5px;
+        background-color: green;
+        display: flex;
+        width: 25vw;
       }
     }
   }

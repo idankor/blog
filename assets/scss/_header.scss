@@ -44,6 +44,7 @@
 
     @media #{$media-size-phone} {
       flex-direction: row;
+      justify-content: flex-start;
     }
   }
 
