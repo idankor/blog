@@ -1,7 +1,8 @@
 .header {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 0;
   // Default
   background: $light-background-header;
@@ -9,6 +10,8 @@
   position: sticky;
   bottom: 0;
   height: 3rem;
+  padding: 0;
+  margin: 0;
 
   @media #{$media-size-phone} {
     flex-direction: row;
@@ -34,8 +37,10 @@
   &__right {
     display: flex;
     align-items: center;
-    flex-direction: row-reverse;
     justify-content: center;
+    flex-direction: row-reverse;
+    padding: 0;
+    margin: 0;
 
     @media #{$media-size-phone} {
       flex-direction: row;
@@ -45,12 +50,15 @@
   &__inner {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 0px;
     width: 100%;
-    align-self: flex-start;
+    max-width: 800px;
+    height: 100%;
     position: sticky;
     bottom: 0;
+    padding: 0;
+    margin: 0;
   }
 }
 
