@@ -10,19 +10,16 @@
         style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
     {{ end }}
 
-    <h1 style="margin: 0;">{{ .Site.Title }}</h1>
+    <h1 style="margin: 0; text-align: center;">{{ .Site.Title }}</h1>
     {{- with .Site.Params.homeSubtitle }}
 
-    <p style="font-weight: 300; font-size: 1.1rem; margin: 1% 1%;">{{.}}</p>
+    <p style="font-weight: 300; font-size: 1.15rem; margin: 0px 0px 5px 0px; text-align: center;">{{.}}</p>
     {{- end }}
 
-    <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
 
-        <a href="/chapters/" style="text-decoration: none;"><i id="start-arrow" class="ri-arrow-right-fill"
-                style="display: flex; font-size: 1.5rem;"></i></a>
-        </p>
+    <a href="/chapters/" style="text-decoration: none; text-align: center;"><i id="start-arrow"
+            class="ri-arrow-right-fill" style="font-size: 1.5rem;"></i></a>
 
-    </div>
 
     {{- with .Site.Params.social }}
     <div>

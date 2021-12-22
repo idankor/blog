@@ -9,7 +9,7 @@
   width: 100%;
   position: sticky;
   bottom: 0;
-  height: 3rem;
+  height: 2.5rem;
   padding: 0;
   margin: 0;
 
@@ -50,7 +50,7 @@
   &__inner {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 0px;
     width: 100%;
     max-width: 800px;
@@ -58,7 +58,7 @@
     position: sticky;
     bottom: 0;
     padding: 0;
-    margin: 0;
+    margin: 0px 0.5rem;
   }
 }
 
