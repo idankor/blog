@@ -1,14 +1,11 @@
 .post {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 90vh;
+  justify-content: flex-start;
   width: 100%;
   max-width: 800px;
   text-align: left;
-  padding: 0px;
-  margin: 0px auto;
+  padding: 0px 15px;
   @media #{$media-size-tablet} {
     max-width: 600px;
   }

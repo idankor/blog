@@ -12,13 +12,11 @@
 
     <div class="container">
         {{ block "footer" . }}
-        <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; height: 4.5%;">
-            <div id="phone-tablet-only" style="width: 100%;">
-                {{ partial "footer.html" . }}
-            </div>
-            <div id="desktop-only" style="width: 100%;">
-                {{ partial "footer.html" . }}
-            </div>
+        <div id="phone-tablet-only" style="width: 100%;">
+            {{ partial "footer.html" . }}
+        </div>
+        <div id="desktop-only" style="width: 100%;">
+            {{ partial "footer.html" . }}
         </div>
         {{ end }}
 
