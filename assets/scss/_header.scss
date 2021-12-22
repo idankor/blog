@@ -8,6 +8,7 @@
   width: 100%;
   position: sticky;
   bottom: 0;
+  height: 3rem;
 
   @media #{$media-size-phone} {
     flex-direction: row;
