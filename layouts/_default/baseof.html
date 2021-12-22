@@ -5,32 +5,26 @@
     {{ partial "head.html" . }}
 </head>
 
-{{ block "body" . }}
-
 <body>
-    {{ end }}
-
+    <!-- Container -->
     <div class="container">
-        {{ block "footer" . }}
-        <div id="phone-tablet-only" style="width: 100%;">
+        <div id="phone-tablet-only">
             {{ partial "footer.html" . }}
         </div>
-        <div id="desktop-only" style="width: 100%;">
+        <div id="desktop-only">
             {{ partial "footer.html" . }}
         </div>
-        {{ end }}
-
         <div class="content">
             {{ block "main" . }}{{ end }}
         </div>
-
         {{ partial "header.html" . }}
+
     </div>
+    <!-- Container -->
+    <!-- Bottom menu -->
 
-
-
+    <!-- Bottom menu -->
     {{ partial "javascript.html" . }}
-
 </body>
 
 </html>
