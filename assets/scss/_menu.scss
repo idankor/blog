@@ -39,7 +39,7 @@
     flex-direction: row;
     max-width: 100%;
     margin: 10px auto;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     list-style: none;
     li {
       margin: 0 12px;
@@ -57,7 +57,8 @@
         padding: 0.5rem;
         background-color: $light-background-header;
         display: flex;
-        width: 28vw;
+        width: 35vw;
+        font-size: 1.25rem;
       }
       li:hover {
         color: #67a2c9;
@@ -66,8 +67,8 @@
   }
 
   &-trigger {
-    width: 22px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
     fill: currentColor;
     cursor: pointer;
     height: 100%;
