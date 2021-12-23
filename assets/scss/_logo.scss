@@ -8,6 +8,10 @@
   font-display: auto;
   font-family: monospace, monospace;
 
+  @media #{$media-size-phone} {
+    margin-right: 0.5rem;
+  }
+
   img {
     height: 44px;
   }

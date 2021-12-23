@@ -53,10 +53,13 @@
       bottom: 0;
       li {
         margin: 0;
-        padding: 5px;
-        background-color: green;
+        padding: 0.5rem 0.25rem 0.5rem 1rem;
+        background-color: $light-background-header;
         display: flex;
-        width: 25vw;
+        width: 30vw;
+      }
+      li:hover {
+        color: #67a2c9;
       }
     }
   }
@@ -70,6 +73,7 @@
 
     @media #{$media-size-phone} {
       display: block;
+      margin-left: 0.5rem;
     }
   }
 

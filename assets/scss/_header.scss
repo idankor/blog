@@ -52,14 +52,18 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin: 0px;
+    margin: 0p;
     width: 100%;
     max-width: 800px;
     height: 100%;
     position: sticky;
     bottom: 0;
-    padding: 0;
-    margin: 0px 0.5rem;
+    @media #{$media-size-tablet} {
+      padding: 0rem 1rem;
+    }
+    @media #{$media-size-phone} {
+      padding: 0;
+    }
   }
 }
 
@@ -77,6 +81,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  @media #{$media-size-tablet} {
+    margin-right: 0rem;
+  }
 }
 
 .not-selectable {
