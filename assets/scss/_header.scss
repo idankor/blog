@@ -45,6 +45,8 @@
     @media #{$media-size-phone} {
       flex-direction: row;
       justify-content: flex-start;
+      padding: 0;
+      margin: 0;
     }
   }
 
@@ -58,12 +60,6 @@
     height: 100%;
     position: sticky;
     bottom: 0;
-    @media #{$media-size-tablet} {
-      padding: 0rem 1rem;
-    }
-    @media #{$media-size-phone} {
-      padding: 0;
-    }
   }
 }
 

@@ -12,8 +12,12 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0;
-  padding: 0;
+  padding: 0 0.5rem;
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
     Helvetica, Arial, sans-serif;
   font-display: auto;
@@ -328,14 +332,19 @@ ol ol {
 }
 
 .container {
+  max-width: 800px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .content {
+  max-width: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
