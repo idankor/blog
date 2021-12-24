@@ -14,7 +14,9 @@
         <div id="desktop-only">
             {{ partial "footer.html" . }}
         </div>
+
         <div class="content">
+
             {{ block "main" . }}{{ end }}
         </div>
         {{ partial "header.html" . }}

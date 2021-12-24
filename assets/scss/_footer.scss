@@ -1,14 +1,12 @@
 .footer {
-  padding: 0;
-  flex-grow: 0;
   color: $light-color-secondary;
-  width: 100%;
-  top: 0;
-  height: 2.5rem;
   display: flex;
-  flex-direction: column;
+  width: 100%;
   justify-content: center;
   align-items: center;
+  top: 0;
+  height: 2.5rem;
+  position: absolute;
 
   &__inner {
     display: flex;

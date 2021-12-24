@@ -1,20 +1,10 @@
 .header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  // Default
-  background: $light-background-header;
-  width: 100%;
-  position: sticky;
-  bottom: 0;
+  z-index: 3;
   padding: 0;
-  margin: 0;
-
-  @media #{$media-size-phone} {
-    flex-direction: row;
-    bottom: 0;
-  }
+  backdrop-filter: saturate(180%);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 
   @media (prefers-color-scheme: dark) {
     background: $dark-background-header;
@@ -26,10 +16,6 @@
 
   [data-theme="dark"] & {
     background: $dark-background-header;
-  }
-
-  [data-theme="light"] & {
-    background: $light-background-header;
   }
 
   &__right {
@@ -50,18 +36,31 @@
 
   &__inner {
     display: flex;
-    flex-direction: row-reverse;
     justify-content: space-between;
-    width: 100%;
-    max-width: 800px;
-    height: 100%;
-    position: sticky;
-    bottom: 0;
-    padding: 0 0.5rem;
-
+    align-items: center;
+    margin: 0 auto;
+    max-width: 880px;
     @media #{$media-size-phone} {
       margin: 0.5rem 0;
     }
+  }
+}
+
+.header-wrapper {
+  padding: 1em 0;
+  [data-theme="light"] & {
+    background: #fff;
+    background-image: linear-gradient(
+      90deg,
+      rgba(247, 149, 51, 0.101961) 0,
+      rgba(243, 112, 85, 0.101961) 15%,
+      rgba(239, 78, 123, 0.101961) 30%,
+      rgba(161, 102, 171, 0.101961) 44%,
+      rgba(80, 115, 184, 0.101961) 58%,
+      rgba(16, 152, 173, 0.101961) 72%,
+      rgba(7, 179, 155, 0.101961) 86%,
+      rgba(109, 186, 130, 0.101961) 100%
+    );
   }
 }
 

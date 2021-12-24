@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
+$max-width: 880px;
+
 /* Light theme color */
 $light-background: #fff;
 $light-background-secondary: #eaeaea;
-$light-background-header: #fafafa;
+$light-background-header: none;
 $light-color: #222;
 $light-color-secondary: #999;
 $light-border-color: #dcdcdc;
@@ -21,6 +23,9 @@ $dark-table-color: #4e4e57;
 $media-size-phone: "(max-width: 684px)";
 $media-size-tablet: "(max-width: 900px)";
 
+/* MemE */
+$color-contrast-high: hsl(240, 4%, 20%);
+
 /* Variables for js, must be the same as these in @custom-media queries */
 :root {
   --phoneWidth: (max-width: 684px);
@@ -28,4 +33,4 @@ $media-size-tablet: "(max-width: 900px)";
 }
 
 /* Content */
-$max-width: 860px;
+$max-width: 880px;
