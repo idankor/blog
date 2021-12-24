@@ -85,7 +85,6 @@ h1 {
 
 h2 {
   font-size: 1.625rem;
-  margin-top: 2rem;
 }
 
 h3 {
@@ -348,6 +347,7 @@ ol ol {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
 }
 
 .content {
@@ -355,6 +355,7 @@ ol ol {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
   @media #{$media-size-phone} {
   }
 }
