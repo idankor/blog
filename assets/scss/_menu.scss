@@ -60,9 +60,6 @@
         width: 35vw;
         font-size: 1.25rem;
       }
-      li:hover {
-        color: #67a2c9;
-      }
     }
   }
 
@@ -90,6 +87,7 @@
 
     &:hover {
       text-decoration: none;
+      color: $meme-primary-color;
     }
 
     &:last-of-type {
