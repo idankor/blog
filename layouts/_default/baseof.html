@@ -6,15 +6,20 @@
 </head>
 
 <body>
+
+
+
+    </div>
+
     <!-- Container -->
     <div class="container">
+
         <div id="phone-tablet-only">
             {{ partial "footer.html" . }}
         </div>
         <div id="desktop-only">
             {{ partial "footer.html" . }}
         </div>
-
         <div class="content">
 
             {{ block "main" . }}{{ end }}
