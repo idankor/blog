@@ -4,6 +4,7 @@
   flex-direction: row;
   justify-content: center;
   margin-left: 0.75rem;
+  color: $color-contrast-medium;
   // Default
   background: $light-background-header;
 
@@ -39,7 +40,7 @@
     flex-direction: row;
     max-width: 100%;
     margin: 10px auto;
-    font-size: 0.9rem;
+    font-size: 1rem;
     list-style: none;
     li {
       margin: 0 12px;
@@ -69,7 +70,7 @@
     fill: currentColor;
     cursor: pointer;
     height: 100%;
-    margin-right: 0.5rem;
+    margin-right: 0.75rem;
 
     @media #{$media-size-phone} {
       display: flex;

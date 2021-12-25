@@ -19,14 +19,15 @@
   &__mark {
     margin-right: 5px;
     font-size: 0.75rem;
+    color: $color-contrast-medium;
   }
 
   &__text {
     font-size: 0.75rem;
+    color: $color-contrast-medium;
   }
 
   &__cursor {
-    display: inline-block;
     width: 5px;
     height: 0.75rem;
     background: #fe5186;
