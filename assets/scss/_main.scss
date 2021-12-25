@@ -97,7 +97,7 @@ h4 {
 
 @media #{$media-size-phone} {
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 
   h2 {
@@ -345,7 +345,7 @@ ol ol {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 0;
 }

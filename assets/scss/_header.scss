@@ -54,7 +54,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    max-width: 880px;
+    max-width: 800px;
     width: 100%;
     padding: 0 1rem;
     @media #{$media-size-phone} {
@@ -79,6 +79,9 @@
   justify-content: center;
   @media #{$media-size-tablet} {
     margin-right: 0rem;
+  }
+  @media #{$media-size-phone} {
+    margin-top: 1px;
   }
 }
 
