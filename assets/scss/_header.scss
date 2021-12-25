@@ -1,10 +1,25 @@
 .header {
   z-index: 3;
-  padding: 0;
   backdrop-filter: saturate(180%);
   position: fixed;
   bottom: 0;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  [data-theme="light"] & {
+    background: #fff;
+    background-image: linear-gradient(
+      90deg,
+      rgba(247, 149, 51, 0.101961) 0,
+      rgba(243, 112, 85, 0.101961) 15%,
+      rgba(239, 78, 123, 0.101961) 30%,
+      rgba(161, 102, 171, 0.101961) 44%,
+      rgba(80, 115, 184, 0.101961) 58%,
+      rgba(16, 152, 173, 0.101961) 72%,
+      rgba(7, 179, 155, 0.101961) 86%,
+      rgba(109, 186, 130, 0.101961) 100%
+    );
+  }
 
   @media (prefers-color-scheme: dark) {
     background: $dark-background-header;
@@ -20,7 +35,7 @@
 
   &__right {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     flex-direction: row-reverse;
     padding: 0;
@@ -35,34 +50,15 @@
   }
 
   &__inner {
-    padding: 0 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     max-width: 880px;
+    width: 100%;
     @media #{$media-size-phone} {
-      margin: 0.5rem 0;
+      margin: 1rem;
     }
-  }
-}
-
-.header-wrapper {
-  padding: 0.5em 0;
-
-  [data-theme="light"] & {
-    background: #fff;
-    background-image: linear-gradient(
-      90deg,
-      rgba(247, 149, 51, 0.101961) 0,
-      rgba(243, 112, 85, 0.101961) 15%,
-      rgba(239, 78, 123, 0.101961) 30%,
-      rgba(161, 102, 171, 0.101961) 44%,
-      rgba(80, 115, 184, 0.101961) 58%,
-      rgba(16, 152, 173, 0.101961) 72%,
-      rgba(7, 179, 155, 0.101961) 86%,
-      rgba(109, 186, 130, 0.101961) 100%
-    );
   }
 }
 
