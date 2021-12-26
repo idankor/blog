@@ -1,0 +1,166 @@
+[data-theme="light"] & {
+  /* Primary button colors 
+------------------------------*/
+
+  .btn-primary,
+  .btn-primary:link,
+  .nav-pills > li > a.active,
+  .nav-pills > li > a.active:hover,
+  .nav-pills > li > a.active:focus,
+  .nav-pills > li.active > a,
+  .nav-pills > li.active > a:hover,
+  .nav-pills > li.active > a:focus,
+  .nav > .active {
+    background: #2a6df4;
+  }
+  .DW.DW .dw-ar-t > .dw-p-as > .dw-a-reply,
+  button.esScrollBtns_menu.btn.btn-default {
+    background: #2a6df4;
+  }
+
+  /* Page background color
+------------------------------*/
+
+  body,
+  div[class^="dw-p"],
+  .dw-cmts-tlbr-head,
+  .dw-cmts-tlbr-open,
+  .dw-cmts-tlbr-details,
+  .dw-arw-vt-curve-to-last-sibling-indented {
+    background-color: hsl(
+      0,
+      46%,
+      95%
+    ) !important; /* bright red = hue 0, just an example */
+  }
+
+  /* Edits preview border color
+------------------------------*/
+
+  .s_T_ReTo,
+  .s_T_YourPrvw {
+    background: hsl(207, 100%, 84%);
+  }
+  .s_T-Prvw-IsEd.dw-id0:not(.s_P-Prvw-Real) {
+    outline-color: hsl(207, 100%, 84%);
+  }
+  .s_P-Prvw:not(.s_P-Prvw-Real),
+  .dw-id0.s_T-Prvw-IsEd.dw-id0:not(.s_P-Prvw-Real),
+  .s_T-Flat.s_T-Prvw-IsEd.s_T-Flat:not(.s_P-Prvw-Real) {
+    border-bottom-color: hsl(207, 100%, 84%) !important;
+  }
+
+  /* Makes the Sign Up dialog Log-In-instead button simpler to notice
+------------------------------*/
+  .esLD_Switch .esLD_Switch_L {
+    color: white;
+    background: hsl(207, 100%, 48%);
+    padding: 4px 9px 4px 12px;
+    margin: 0 4px 0 7px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 31%);
+  }
+}
+
+[data-theme="dark"] & {
+  /* Primary button colors  (green = hue 159)
+------------------------------*/
+
+  .btn-primary,
+  .btn-primary:link,
+  .nav-pills > li > a.active,
+  .nav-pills > li > a.active:hover,
+  .nav-pills > li > a.active:focus,
+  .nav-pills > li.active > a,
+  .nav-pills > li.active > a:hover,
+  .nav-pills > li.active > a:focus,
+  .nav > .active {
+    background: hsl(159, 63%, 45%);
+    color: #2a6df4 !important;
+  }
+
+  .DW.DW .dw-ar-t > .dw-p-as > .dw-a-reply,
+  button.esScrollBtns_menu.btn.btn-default {
+    background: hsl(159, 100%, 54%);
+    color: hsl(210, 6%, 12%) !important;
+  }
+
+  .DW.DW .dw-p-as .dw-a-reply,
+  .s_OpReB {
+    color: #2a6df4 !important;
+    margin-left: 1rem !important;
+  }
+
+  /* Page background color
+------------------------------*/
+
+  body,
+  div[class^="dw-p"],
+  .dw-cmts-tlbr-head,
+  .dw-cmts-tlbr-open,
+  .dw-cmts-tlbr-details,
+  .dw-arw-vt-curve-to-last-sibling-indented {
+    background-color: hsl(210, 6%, 12%) !important;
+  }
+
+  /* White text and bright arrows, for dark themes
+------------------------------*/
+
+  p,
+  li,
+  .dw-a,
+  .dw-cmts-tlbr-details,
+  .dw-cmts-count,
+  .dw-u-info,
+  .esP_By_F,
+  .esP_By_U,
+  .dw-p-hd .dw-ago,
+  .dw-p-hd .dw-rrs,
+  .dw-p-hd .esP_viewHist,
+  .esMetabar .dw-cmts-tlbr-head .dw-cmts-tlbr-summary > li {
+    color: white !important;
+  }
+  /* But not inside dialogs */
+  .DW.DW .dw-p-as-more > .dw-a,
+  .DW.DW .dw-p-as-votes > .dw-a,
+  .esDropModal .dw-a {
+    color: black !important;
+  }
+
+  #dw-cmts-tlbr {
+    border-color: hsl(0, 0%, 57%);
+  }
+  .dw-cmts-tlbr-open {
+    color: gray;
+  }
+  .dw-arw {
+    filter: invert(
+      100%
+    ); /* why won't brightness(9900%) have any effect? I'd like the arrows to be a bit brighter.  */
+  }
+
+  /* Embedded blog comments editor (it's in its own <iframe> )
+------------------------------*/
+
+  .s_E-E#debiki-editor-controller {
+    /* background */
+    background: #333;
+    color: white;
+  }
+  .s_E-E textarea {
+    /* where one types  */
+    background: black;
+    color: white;
+  }
+  .s_E-E .esEdtr_txtBtns,   /* buttons like Bold, Italic, upload-image etc */
+.s_E-E .esEdtr_txtBtn {
+    background: #777;
+    color: white;
+  }
+  .s_E-E .s_DfSts {
+    /* Info text, like "Saving draft ..."  */
+    color: #999;
+  }
+  .s_E-E .esCloseCross {
+    color: hsl(0 0% 83%);
+  }
+}

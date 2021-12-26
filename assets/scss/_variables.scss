@@ -28,10 +28,13 @@ $color-contrast-high: hsl(240, 4%, 20%);
 $color-contrast-medium: hsl(240, 1%, 48%);
 $meme-primary-color: hsl(220, 90%, 56%);
 
+$test-var: red;
+
 /* Variables for js, must be the same as these in @custom-media queries */
 :root {
   --phoneWidth: (max-width: 684px);
   --tabletWidth: (max-width: 900px);
+  --test-vat: red;
 }
 
 /* Content */
