@@ -7,7 +7,9 @@
   padding: 0 1.25rem;
   max-width: 800px;
   margin-top: 4rem;
-
+  @media #{$media-size-tablet} {
+    margin-top: 0;
+  }
   @media #{$media-size-phone} {
     margin-top: 0;
   }
