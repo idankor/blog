@@ -6,8 +6,10 @@
   text-align: left;
   padding: 0 1.25rem;
   max-width: 800px;
-  @media #{$media-size-tablet} {
-    max-width: 600px;
+  margin-top: 4rem;
+
+  @media #{$media-size-phone} {
+    margin-top: 0;
   }
 
   &-date {
