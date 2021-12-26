@@ -479,6 +479,15 @@ svg:hover {
   fill: $meme-primary-color;
 }
 
+#start-arrow {
+  [data-theme="light"] & {
+    color: $light-color;
+  }
+  [data-theme="dark"] & {
+    color: $dark-color;
+  }
+}
+
 #start-arrow:hover {
   color: $meme-primary-color;
 }
