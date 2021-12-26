@@ -77,12 +77,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  @media #{$media-size-tablet} {
-    margin-right: 0rem;
-  }
-  @media #{$media-size-phone} {
-    margin-top: 1px;
-  }
 }
 
 .not-selectable {
