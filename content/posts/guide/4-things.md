@@ -1,7 +1,6 @@
 ---
 title: "4. Things"
 draft: false
-type: "post"
 ---
 
 If I understand Friston correctly in [this video](https://www.youtube.com/watch?v=NIu_dJGyIQI), there are two main approaches to explaining the FEP: the high road and the low road. I recommend that you watch the video now. Don't worry if you get confused or intimidated because the point is getting your mind asking questions. Later on, you will watch it again, and you will be amazed how much sense this video will make to you.

@@ -1,6 +1,7 @@
 ---
 title: "0. Start Here"
 draft: false
+type: "guide"
 ---
 
 It is no secret that many of us are waiting for the right moment. I asked myself if I should put the word "right" between quotes while writing the previous sentence, as the more common view on this matter (at least so I believe) is that there is no right moment. But then I did one of my favorite things: I doubted a belief (that I was holding somewhat mindlessly). I cannot be so sure that there is such thing as the "right moment." This is a profound and complex philosophical issue, and perhaps I will discuss it in one of my future writings.
