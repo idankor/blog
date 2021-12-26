@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body>
+    </div>
+    <div class="container">
+
+        <div id="phone-tablet-only">
+            {{ partial "footer.html" . }}
+        </div>
+        <div id="desktop-only">
+            {{ partial "footer.html" . }}
+        </div>
+        <div class="content">
+            {{ block "main" . }}{{ end }}
+
+            <script>talkyardServerUrl = '{{ .Site.Params.talkyardServerUrl }}';</script>
+            <script async defer src="{{ .Site.Params.talkyardScriptUrl }}"></script>
+            <!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
+            <div class="talkyard-comments" data-discussion-id="{{ .Params.discussionId }}" style="margin-top: 45px;">
+                <noscript>Please enable Javascript to view comments.</noscript>
+
+            </div>
+        </div>
+        {{ partial "header.html" . }}
+    </div>
+    {{ partial "javascript.html" . }}
+</body>
+
+</html>
