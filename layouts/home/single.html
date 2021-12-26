@@ -1,0 +1,31 @@
+{{ define "body" }}
+
+<body class="{{ if .Site.Params.backgroundImage }} background-image"
+    style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
+    {{ end }}
+    {{ define "main" }}
+    {{ if .Site.Params.Portrait.Path }}
+    <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}"
+        style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
+    {{ end }}
+    <h1> this is "home" type </h1>
+    <h1 style="margin: 0; text-align: center;">{{ .Site.Title }}</h1>
+    {{- with .Site.Params.homeSubtitle }}
+
+    <p style="font-size: 1.15rem; margin: 0px 0px 5px 0px; text-align: center;">{{.}}</p>
+    {{- end }}
+
+
+    <a href="/chapters/" style="text-decoration: none; text-align: center;"><i id="start-arrow"
+            class="ri-arrow-right-fill" style="font-size: 1.5rem;"></i></a>
+
+
+    {{- with .Site.Params.social }}
+    <div>
+        {{ partial "social-icons.html" . }}
+    </div>
+    {{- end }}
+
+    </main>
+
+    {{ end }}

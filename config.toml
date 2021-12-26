@@ -105,6 +105,10 @@ disableHugoGeneratorInject = false
   #
   justifyContent = false  # Set "text-align: justify" to .post-content.
 
+# Talkyard
+talkyardServerUrl = "https://site-1e8r2r6bts.talkyard.net"
+talkyardScriptUrl = "https://c1.ty-cdn.net/-/talkyard-comments.min.js"
+
   # Custom footer 
   # If you want, you can easily override the default footer with your own content. 
   #

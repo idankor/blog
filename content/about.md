@@ -1,5 +1,6 @@
 +++
 title = "Hi there."
+type = "about"
 +++
 
 {{< rawhtml >}}
