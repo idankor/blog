@@ -8,6 +8,13 @@
     @media #{$media-size-tablet} {
       flex-direction: row;
     }
+
+    [data-theme="light"] & {
+      color: #dcdcdc;
+    }
+    [data-theme="dark"] & {
+      color: #4e4e57;
+    }
   }
 
   &__content {
@@ -16,7 +23,6 @@
     align-items: center;
     justify-content: center;
     font-size: 0.75rem;
-    color: #cbcbcb;
     width: 100%;
 
     @media #{$media-size-tablet} {
