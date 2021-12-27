@@ -9,20 +9,23 @@
     </div>
     <div class="container">
 
-        <div id="phone-tablet-only">
-            {{ partial "footer.html" . }}
-        </div>
-        <div id="desktop-only">
-            {{ partial "footer.html" . }}
+        <div style="display: flex; width: 100%; justify-content: center;">
+            <div id="phone-tablet-only" style="position: absolute; top: 0; left: auto;">
+                {{ partial "footer.html" . }}
+            </div>
+            <div id="desktop-only" style="position: absolute; top: 0;">
+                {{ partial "footer.html" . }}
+            </div>
         </div>
         <div class="content">
             {{ block "main" . }}
             {{ end }}
-            <div style="text-align: left; width: 100%; padding-left: 1rem; padding-bottom: 5rem;">
-                <img src="/images/avatar.jpg" style="height: 200px" />
-
-            </div>
         </div>
+        <div style="display: flex; width: 100%; padding-left: 1rem; padding-bottom: 5rem;">
+            <img src="/images/avatar.jpg" style="height: 200px" />
+
+        </div>
+
         {{ partial "header.html" . }}
     </div>
     {{ partial "javascript.html" . }}

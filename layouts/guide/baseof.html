@@ -7,14 +7,17 @@
 
 <body>
     </div>
-    <div class="container">
-        <div id="phone-tablet-only">
-            {{ partial "footer.html" . }}
+    <div class="container" style="justify-content: center;">
+        <div style="display: flex; width: 100%; justify-content: center;">
+            <div id="phone-tablet-only" style="position: absolute; top: 0; left: auto;">
+                {{ partial "footer.html" . }}
+            </div>
+            <div id="desktop-only" style="position: absolute; top: 0;">
+                {{ partial "footer.html" . }}
+            </div>
         </div>
-        <div id="desktop-only">
-            {{ partial "footer.html" . }}
-        </div>
-        <div class="content, guide-toc">
+
+        <div class="content, guide-toc" style="justify-content: center;">
             {{ block "main" . }}{{ end }}
         </div>
         {{ partial "header.html" . }}
