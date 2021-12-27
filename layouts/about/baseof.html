@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body>
+    </div>
+    <div class="container">
+
+        <div id="phone-tablet-only">
+            {{ partial "footer.html" . }}
+        </div>
+        <div id="desktop-only">
+            {{ partial "footer.html" . }}
+        </div>
+        <div class="content">
+            {{ block "main" . }}
+            {{ end }}
+            <div style="text-align: left; width: 100%; padding-left: 1rem; padding-bottom: 5rem;">
+                <img src="/images/avatar.jpg" style="height: 200px" />
+
+            </div>
+        </div>
+        {{ partial "header.html" . }}
+    </div>
+    {{ partial "javascript.html" . }}
+</body>
+
+</html>
