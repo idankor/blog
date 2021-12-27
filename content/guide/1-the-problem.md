@@ -15,9 +15,9 @@ which to address a unified explanation of life-related phenomena](https://www.md
 According to [this useful guide](https://philpapers.org/rec/MANFEA-2), there are three reasons for that:
 
 > 1. The mathematics are unfamiliar to many philosophers, and even to biologists and cognitive scientists.
-
+>
 > 2. The framework was developed rapidly by a small but dedicated group of researchers, limiting its accessibility while expanding its scope.
-
+>
 > 3. The framework makes claims across both mathematical and empirical domains, and the dialectical relationships between these are unclear.
 
 Of course, this blog welcomes everybody, but mainly aims for an audience without a background in advanced mathematics. In other words: I aspire to make the free-energy principle accessible to the layperson. I am not the first to make such an attempt, but even the resources considered to be introductory about the subject are pretty hard to read and digest.
