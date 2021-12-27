@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>The Free-Energy Guide</title>
+  <link>https://idankor.com</link>
+  <description>FEP for Beginners</description>
+  <item>
+    <title>The guide</title>
+    <link>https://idankor.com/guide</link>
+    <description>The Guide</description>
+  </item>
+</channel>
+</rss>
