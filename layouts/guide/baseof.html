@@ -7,7 +7,7 @@
 
 <body>
     </div>
-    <div class="container" style="justify-content: center;">
+    <div class="container">
         <div style="display: flex; width: 100%; justify-content: center;">
             <div id="phone-tablet-only" style="position: absolute; top: 0; left: auto;">
                 {{ partial "footer.html" . }}
@@ -17,7 +17,7 @@
             </div>
         </div>
 
-        <div class="content, guide-toc" style="justify-content: center;">
+        <div class="content">
             {{ block "main" . }}{{ end }}
         </div>
         {{ partial "header.html" . }}
