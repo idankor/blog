@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  min-width: 50%;
   text-align: left;
 
   @media #{$media-size-tablet} {
@@ -33,7 +32,6 @@
 
   &-group {
     display: flex;
-    margin-bottom: 1.9em;
     line-height: normal;
 
     @media #{$media-size-tablet} {
