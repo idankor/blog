@@ -7,8 +7,8 @@
 
 <body>
     </div>
-    <div class="container">
-
+    <div class="w100 flex col justify-center align-center">
+        <!-- Footer (top part) START -->
         <div style="display: flex; width: 100%; justify-content: center;">
             <div id="phone-tablet-only" style="position: absolute; top: 0; left: auto;">
                 {{ partial "footer.html" . }}
@@ -17,14 +17,13 @@
                 {{ partial "footer.html" . }}
             </div>
         </div>
+        <!-- Footer (top part) END -->
         <div class="content">
             {{ block "main" . }}
             {{ end }}
-        </div>
-        <div style="display: flex; width: 100%; padding-left: 1rem; padding-bottom: 5rem;">
-            <img src="/images/avatar.jpg" style="height: 200px" />
 
         </div>
+
 
         {{ partial "header.html" . }}
     </div>
